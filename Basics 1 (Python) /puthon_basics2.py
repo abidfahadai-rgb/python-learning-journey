@@ -1,105 +1,119 @@
-# File: python_operations_loops.py
-# Author: Fahad
-# Description: Demonstrates Python operators, string methods,
-# math functions, loops and conditions.
+# File: python_string_methods_math.py
+# Author: Abid Fahad Khan
+# Description: Beginner Python notes covering string methods,
+# operators, and basic math functions.
 
-# -------------------------
-# 1. String Methods
-# -------------------------
+
+# -----------------------------------
+# 1. STRING METHODS
+# -----------------------------------
 
 course = "Python Programming"
 
+# .upper() converts text to uppercase
 print(course.upper())
+
+# .lower() converts text to lowercase
 print(course.lower())
+
+# .title() capitalizes the first letter of each word
 print(course.title())
 
-print()
 
-
-# -------------------------
-# 2. Removing Spaces
-# -------------------------
+# -----------------------------------
+# 2. REMOVING EXTRA SPACES
+# -----------------------------------
 
 text = "   hello world   "
 
+# strip() removes spaces from both sides
 print(text.strip())
+
+# lstrip() removes spaces from the left
 print(text.lstrip())
+
+# rstrip() removes spaces from the right
 print(text.rstrip())
 
-print()
 
-
-# -------------------------
-# 3. Find and Replace
-# -------------------------
+# -----------------------------------
+# 3. FINDING TEXT
+# -----------------------------------
 
 course = "Python"
 
+# find() returns the position of text
 print(course.find("Py"))
+
+
+# -----------------------------------
+# 4. REPLACING TEXT
+# -----------------------------------
+
+# replace(old, new)
 print(course.replace("P", "J"))
 
-print()
 
+# -----------------------------------
+# 5. CHECKING TEXT
+# -----------------------------------
 
-# -------------------------
-# 4. Membership Operators
-# -------------------------
-
+# 'in' checks if something exists in a string
 print("Py" in course)
+
+# 'not in' checks if something does NOT exist
 print("Java" not in course)
 
-print()
+
+# -----------------------------------
+# 6. BASIC MATH OPERATORS
+# -----------------------------------
+
+print(10 + 3)   # addition
+print(10 - 3)   # subtraction
+print(10 * 3)   # multiplication
+print(10 / 3)   # division
+
+print(10 // 3)  # integer division (removes decimal)
+print(10 % 3)   # remainder
+print(10 ** 3)  # power
 
 
-# -------------------------
-# 5. Math Operators
-# -------------------------
+# -----------------------------------
+# 7. BUILT-IN MATH FUNCTIONS
+# -----------------------------------
 
-print(10 + 3)
-print(10 - 3)
-print(10 * 3)
-print(10 / 3)
-print(10 // 3)
-print(10 % 3)
-print(10 ** 3)
-
-print()
-
-
-# -------------------------
-# 6. Built-in Math Functions
-# -------------------------
-
+# round() rounds number to nearest integer
 print(round(2.9))
+
+# abs() returns positive value
 print(abs(-2.9))
 
-print()
 
+# -----------------------------------
+# 8. USING MATH MODULE
+# -----------------------------------
 
-# -------------------------
-# 7. Using Math Module
-# -------------------------
-
+# modules provide extra functions
 import math
 
+# ceil() rounds up
 print(math.ceil(2.3))
+
+# floor() rounds down
 print(math.floor(2.9))
 
-print()
 
-
-# -------------------------
-# 8. Shortcut Operators
-# -------------------------
+# -----------------------------------
+# 9. SHORTCUT OPERATORS
+# -----------------------------------
 
 x = 10
 
+# normal addition
 x = x + 3
 print(x)
+
+# shortcut operator (same as the last example)
 x += 3
 print(x)
-# this two means the same code
-
-print()
-
-

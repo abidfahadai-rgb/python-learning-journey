@@ -1,83 +1,80 @@
-# File: python_basics_strings.py
+# File: python_strings_basics.py
 # Author: Fahad
-# Description: Demonstrates basic Python variables, strings,
+# Description: Beginner Python notes covering variables, strings,
 # string length, indexing, slicing, and escape characters.
 
-# -------------------------
-# 1. Basic Variables
-# -------------------------
 
-number1 = 5                 # Integer
-number_2 = 4.99             # Float
+# -----------------------------------
+# 1. VARIABLES
+# -----------------------------------
 
-# String example
-string_example = "python basics"
+number1 = 5        # Integer -> whole number
+number_2 = 4.99    # Float -> decimal number
+boolean_value = True  # Boolean -> True or False
 
+string_example = "python basics"   # String -> text
+
+
+# multi-line string using triple quotes
 multi_line_string = """
 Hi this is Abid
 Let's learn python together
 """
 
-boolean_value = True        # Boolean
-
 print(number1)
 print(number_2)
-print(string_example)
 print(boolean_value)
+print(string_example)
 
-print()
 
-
-# -------------------------
-# 2. String Length
-# -------------------------
+# -----------------------------------
+# 2. STRING LENGTH
+# -----------------------------------
 
 course = "Learning Code"
 
-# len() returns number of characters
+# len() returns number of characters in the string
 print("Length of course:", len(course))
 
-print()
 
-
-# -------------------------
-# 3. String Indexing
-# -------------------------
+# -----------------------------------
+# 3. STRING INDEXING
+# -----------------------------------
 
 course_2 = "python basics"
 
-print("Length of course_2:", len(course_2))
+# indexing starts from 0 in Python
 
-# First character
-print("First character:", course_2[0])
+print("First character:", course_2[0])   # p
+print("Second character:", course_2[1])  # y
 
-# Last character
-print("Last character:", course_2[-1])
+# negative index counts from the end
 
-print()
+print("Last character:", course_2[-1])   # s
 
 
-# -------------------------
-# 4. String Slicing
-# -------------------------
+# -----------------------------------
+# 4. STRING SLICING
+# -----------------------------------
 
-# Print entire string
+# slicing extracts part of a string
+# format -> string[start:end]
+
 print("Full string:", course_2[:])
 
-# Print first four characters
 print("First 4 characters:", course_2[0:4])
 
-print()
+print("From index 2 onwards:", course_2[2:])
 
 
-# -------------------------
-# 5. Escape Characters
-# -------------------------
+# -----------------------------------
+# 5. ESCAPE CHARACTERS
+# -----------------------------------
 
-# \" allows quotes inside string
+# \" allows quotation marks inside a string
 print("abid\"s code")
 
-# \n creates a new line
+# \n moves text to the next line
 print("abid\ncoder")
 
 # \\ prints a backslash
