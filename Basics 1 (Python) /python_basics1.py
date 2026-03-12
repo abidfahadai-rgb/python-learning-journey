@@ -1,16 +1,16 @@
-# File: python_basics1.py
-# Author: Abid Fahad Khan
+# File: python_basics_strings.py
+# Author: Fahad
 # Description: Demonstrates basic Python variables, strings,
 # string length, indexing, slicing, and escape characters.
 
 # -------------------------
-# Basic Variables
+# 1. Basic Variables
 # -------------------------
 
 number1 = 5                 # Integer
 number_2 = 4.99             # Float
 
-# String examples
+# String example
 string_example = "python basics"
 
 multi_line_string = """
@@ -20,19 +20,28 @@ Let's learn python together
 
 boolean_value = True        # Boolean
 
+print(number1)
+print(number_2)
+print(string_example)
+print(boolean_value)
+
+print()
+
 
 # -------------------------
-# String Length
+# 2. String Length
 # -------------------------
 
 course = "Learning Code"
 
-# len() returns the number of characters in a string
+# len() returns number of characters
 print("Length of course:", len(course))
+
+print()
 
 
 # -------------------------
-# String Indexing
+# 3. String Indexing
 # -------------------------
 
 course_2 = "python basics"
@@ -45,9 +54,11 @@ print("First character:", course_2[0])
 # Last character
 print("Last character:", course_2[-1])
 
+print()
+
 
 # -------------------------
-# String Slicing
+# 4. String Slicing
 # -------------------------
 
 # Print entire string
@@ -56,15 +67,17 @@ print("Full string:", course_2[:])
 # Print first four characters
 print("First 4 characters:", course_2[0:4])
 
+print()
+
 
 # -------------------------
-# Escape Characters
+# 5. Escape Characters
 # -------------------------
 
-# \" allows quotes inside a string
+# \" allows quotes inside string
 print("abid\"s code")
 
-# \n moves text to the next line
+# \n creates a new line
 print("abid\ncoder")
 
 # \\ prints a backslash
