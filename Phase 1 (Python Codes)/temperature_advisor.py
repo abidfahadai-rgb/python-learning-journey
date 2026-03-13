@@ -1,6 +1,6 @@
 #
 # File: practical2ex12.py
-# Author: Abid Fahad Khan
+# Author: Fahad
 # Email Id: your_email@example.com
 # Description: Practical 2, exercise 12. Displays a message based on temperature.
 # This is my own work as defined by the University's

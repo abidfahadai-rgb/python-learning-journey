@@ -1,5 +1,5 @@
 # File: python_string_methods_math.py
-# Author: Abid Fahad Khan
+# Author: Fahad
 # Description: Beginner Python notes covering string methods,
 # operators, and basic math functions.
 

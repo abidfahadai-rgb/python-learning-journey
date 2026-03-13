@@ -1,6 +1,6 @@
 #
 # File: practical2ex6.py
-# Author: Abid Fahad Khan
+# Author: Fahad
 # Email Id: your_email@example.com
 # Description: Practical 2, exercise 6. Calculates the area of a circle.
 # This is my own work as defined by the University's

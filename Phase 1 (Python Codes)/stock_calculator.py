@@ -1,6 +1,6 @@
 #
 # File: practical2ex13.py
-# Author: Abid Fahad Khan
+# Author: Fahad
 # Email Id: your_email@example.com
 # Description: Practical 2, exercise 13. Calculates Joe's stock transaction details.
 # This is my own work as defined by the University's
