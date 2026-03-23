@@ -131,14 +131,14 @@ for i in range(10):                             # Outer loop → repeat 10 times
 
 
 
-    index1 = 0
+index1 = 0
 index2 = 0
 input1 = int(input("Enter an integer: "))
 input2 = int(input("Enter another integer: "))
 while index1 < input1:
-while index2 < input2:
-print("#",end="")
-index2 = index2 + 1
-print()
-index2 = 0
-index1 = index1 + 1
+    while index2 < input2:
+        print("#", end="")
+        index2 = index2 + 1
+    print()
+    index2 = 0
+    index1 = index1 + 1
